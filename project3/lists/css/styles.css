@@ -1,0 +1,33 @@
+body {
+  background-color: blueviolet;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 0, 255);
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(166, 255, 0);
+}
+
+ul {
+  color: rgb(170, 170, 255);
+  list-style-type: lower-greek;
+}
+
+ol {
+  color: rgb(0, 255, 128);
+  list-style-type: upper-roman;
+}
+
+dt {
+  color: rgb(255, 8, 0);
+}
+
+dd {
+  color: rgb(212, 255, 0);
+}

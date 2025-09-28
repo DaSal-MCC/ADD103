@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(238, 255, 0);
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+p,
+ul,
+li {
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: rgb(0, 229, 255);
+  color: blueviolet;
+  text-decoration: solid;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+nav a:hover {
+  background-color: blueviolet;
+  color: rgb(0, 229, 255);
+}

@@ -1,0 +1,41 @@
+body {
+  background: #5ffd4a;
+  font-family: helvetica, impact, arial;
+}
+
+img {
+  width: 50%;
+  border: 30px solid #ff0000;
+  display: block;
+  margin: 5px auto;
+  background-color: #0b8b00;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: yellow;
+  text-align: center;
+}
+
+p {
+  color: mintcream;
+}
+
+ul {
+  color: #c7ffec;
+  list-style: georgian;
+}
+
+ol {
+  color: crimson;
+  list-style: upper-roman;
+}
+
+dt {
+  color: #03a9f4;
+}
+
+dd {
+  color: beige;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: brown;
+  color: gold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  border: 10px solid cornsilk;
+  margin: 20px solid;
+  background-color: coral;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  border: 10px solid rgb(255, 204, 0);
+  margin: 20px solid;
+  background-color: rgb(153, 46, 6);
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  width: 50%;
+}

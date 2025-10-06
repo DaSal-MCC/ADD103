@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(192, 72, 3);
+  color: antiquewhite;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+iframe {
+  height: 1500px;
+  width: 1200px;
+  display: block;
+  margin: 40px auto;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 9px;
+  box-shadow: 0 0 20px rgba(128, 17, 17, 0.5);
+}
+
+.video {
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin: 30px auto;
+  border: 5px solid rgb(139, 86, 0);
+}

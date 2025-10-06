@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables: Styling Tables</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <style>
+      table,
+      th,
+      td {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+        padding: 10px;
+      }
+
+      th {
+        background-color: yellow;
+        color: darkcyan;
+        border: 5px solid black;
+      }
+      td {
+        border: 5px solid rgb(24, 0, 144);
+        text-align: center;
+        color: black;
+      }
+
+      tr:hover {
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="margin-bottom: 50px; margin-top: 50px; color: darkblue">
+      Tables: Styling Tables
+    </h1>
+    <nav>
+      <a href="../index.html">Table Basics</a>
+      <a href="styling-tables.html">Styling Tables</a>
+      <a href="../pages/calendar.html">Creating a Calendar</a>
+    </nav>
+
+    <table style="margin-top: 50px">
+      <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+
+      <tr>
+        <th>8 AM</th>
+        <td rowspan="2">Get ready for college</td>
+        <td></td>
+        <td rowspan="2">Get ready for college</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>9 AM</th>
+
+        <td></td>
+
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>10 AM</th>
+        <td rowspan="2">Attend Composition</td>
+        <td rowspan="3">Get ready for college</td>
+        <td rowspan="2">Attend Composition</td>
+        <td rowspan="3">Get ready for college</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>11 AM</th>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>12 PM</th>
+        <td>Return Home</td>
+        <td>Return Home</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>1 PM</th>
+        <td></td>
+        <td rowspan="2">Attend Computer Ethics</td>
+        <td></td>
+        <td rowspan="2">Attend Computer Ethics</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>2 PM</th>
+        <td rowspan="3">Do Homework</td>
+        <td rowspan="3">Do Homework</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>3 PM</th>
+
+        <td>Return Home</td>
+
+        <td>Return Home</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>4 PM</th>
+        <td rowspan="2">Do Homework</td>
+        <td rowspan="2">Do Homework</td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <th>5 PM</th>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

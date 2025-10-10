@@ -1,0 +1,96 @@
+body {
+  background-color: ivory;
+  font-family: arial, helvetica, sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+div,
+header,
+footer,
+nav,
+main,
+aside {
+  overflow: auto;
+  border: 1px solid gold;
+  margin: 10px;
+  padding: 10px;
+}
+
+header {
+  background-color: rgb(250, 58, 58);
+}
+
+nav {
+  background-color: rgb(58, 250, 84);
+}
+
+main {
+  background-color: rgb(93, 58, 250);
+}
+
+aside {
+  background-color: rgb(234, 250, 58);
+}
+
+footer {
+  background-color: rgb(250, 58, 244);
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 4px solid rgb(255, 102, 0);
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: darkslategray;
+}
+
+.container .container {
+  border: 4px solid burlywood;
+  border-radius: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+.container p {
+  margin-left: 15px;
+}
+
+/*My custom classes */
+.new1 {
+  border: 10px solid rgb(139, 249, 249);
+  border-radius: 20px;
+  background-color: cadetblue;
+}
+
+.new2 {
+  color: darkmagenta;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#new3 {
+  padding: 30px;
+  background-color: brown;
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#new4 {
+  padding: 20px;
+  background-color: rgb(37, 189, 47);
+  color: #aefe00;
+  border: 10px solid aqua;
+  margin: 10px;
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+}

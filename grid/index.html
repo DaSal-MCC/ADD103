@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Testing</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="imageswap.js"></script>
+  </head>
+  <body>
+    <h1>My images</h1>
+    <div>
+      <div>
+        <div>
+          <img
+            src="images/crop-after.jpg"
+            alt="PumpkinCube"
+            onclick="imgSwap1()"
+          />
+        </div>
+        <div>
+          <img
+            src="images/exposure-after.jpg"
+            alt="HalloweenTowel"
+            onclick="imgSwap2()"
+          />
+        </div>
+        <div>
+          <img
+            src="images/flip-after.jpg"
+            alt="PumpkinMug"
+            onclick="imgSwap3()"
+          />
+        </div>
+        <div>
+          <img
+            src="images/resize-after.jpg"
+            alt="WidePumpkin"
+            onclick="imgSwap4()"
+          />
+        </div>
+        <div>
+          <img
+            src="images/rotate-after.jpg"
+            alt="Turkey Plush"
+            onclick="imgSwap5()"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="centralimg">
+      <img
+        style="
+          width: 300px;
+          height: 300px;
+          border: 5px solid orange;
+          padding-left: 0;
+        "
+        src="images/format-orig.jpg"
+        alt="Insert Img Here"
+        id="change"
+      />
+    </div>
+  </body>
+</html>

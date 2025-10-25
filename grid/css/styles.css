@@ -1,0 +1,28 @@
+body {
+  background-color: chocolate;
+  color: orange;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+div {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: brown;
+  padding: 20px;
+}
+
+div div {
+  background-color: darksalmon;
+  padding: 10px;
+  text-align: center;
+  place-content: center;
+  border: 3px solid black;
+  width: auto;
+}
+
+img {
+  width: 30%;
+  padding-left: 33%;
+}

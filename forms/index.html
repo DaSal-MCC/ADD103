@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to the Thanksgiving survey!</h1>
+
+    <form>
+      <h2>Whats your name?</h2>
+      <label for="fName">First Name</label>
+      <input
+        type="text"
+        id="fName"
+        size="40"
+        value="First..."
+        required
+        autofocus
+      />
+
+      <label for="lName">Last Name</label>
+      <input
+        type="text"
+        id="lName"
+        size="40"
+        value="Last..."
+        required
+        autofocus
+      />
+
+      <h2>What do you like to eat on Thanksgiving?</h2>
+
+      <input type="checkbox" id="favFood1" value="Turkey" />
+      <label for="favFood1">Turkey</label><br />
+      <input type="checkbox" id="favFood2" value="Cranberry Sauce" />
+      <label for="favFood2">Cranberry Sauce</label><br />
+      <input type="checkbox" id="favFood3" value="Mashed Potatoes" />
+      <label for="favFood3">Mashed Potatoes</label><br />
+      <input type="checkbox" id="favFood4" value="Gravy" />
+      <label for="favFood4">Gravy</label><br />
+      <input type="checkbox" id="favFood5" value="Pumpkin Pie" />
+      <label for="favFood5">Pumpkin Pie</label><br />
+
+      <h2>Whats the most important to you on Thanksgiving?</h2>
+
+      <input type="radio" id="favThing1" value="Family" />
+      <label for="favThing1">Family</label><br />
+      <input type="radio" id="favThing2" value="Friends" />
+      <label for="favThing2">Friends</label><br />
+      <input type="radio" id="favThing3" value="allAbove" />
+      <label for="favThing3">All Of The Above</label><br />
+
+      <h2>What time do you eat Thanksgiving dinner?</h2>
+
+      <input type="time" id="dinnerTime" value="timeOfDinner" />
+      <label for="dinnerTime"></label><br />
+
+      <h2>On a scale of 1-10, how would you rate this survey?</h2>
+
+      <input
+        type="number"
+        id="rating"
+        placeholder="5"
+        min="1"
+        max="10"
+        value="surveyRating"
+        autofocus
+      />
+      <label for="rating"></label><br />
+
+      <input type="submit" value="Submit" style="margin-top: 5%" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(237, 178, 100);
+  color: rgb(96, 56, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: cornsilk;
+}
+
+input[type="text"] {
+  background-color: bisque;
+  border: solid salmon;
+  padding: 10px;
+}
+
+input[type="text"]:focus {
+  background-color: rgb(255, 163, 50);
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: rgb(255, 234, 0);
+  border: solid rgb(255, 162, 0);
+  font-size: x-large;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+input[type="time"] {
+  background-color: rgb(255, 196, 0);
+  border: solid rgb(255, 55, 0);
+  font-size: x-large;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input[type="number"] {
+  background-color: rgb(255, 234, 0);
+  border: solid rgb(255, 251, 171);
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(255, 250, 195);
+  border: solid rgb(255, 206, 121);
+}

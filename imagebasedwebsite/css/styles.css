@@ -1,0 +1,98 @@
+/*
+  overflow: auto; code from demo site
+
+  Image references:
+  Works Cited
+D'Alessandro, Emily. “The "father" of Starbucks' Pumpkin Spice Latte says "it was the flavor that almost wasn't."” CBS News, 25 September 2021, https://www.cbsnews.com/news/starbucks-pumpkin-spice-latte-father-peter-dukes-the-flavor-that-almost-wasnt/. Accessed 3 November 2025.
+
+“Dunkin' Fall Menu.” Dunkin, https://www.dunkindonuts.com/en/fall-menu. Accessed 3 November 2025.
+
+“Featured menu.” Starbucks, https://www.starbucks.com/menu/featured/. Accessed 3 November 2025.
+
+Peet's Coffee. “Seasonal Beverages.” Peet's Coffee, https://www.peets.com/collections/seasonal-beverages?cjdata=MXxOfDB8WXww&utm_source=Microsoft+Shopping+%28Bing+Rebates%2C+Coupons%2C+etc.%29&utm_medium=Peets_Affiliates&cjevent=78516007b93211f0837303fe0a82b836&click_id=78516007b93211f0837303fe0a82b836. Accessed 3 November 2025.
+
+Pixabay. Pixabay: 5.8 million+ Stunning Free Images to Use Anywhere, https://pixabay.com/. Accessed 3 November 2025.
+*/
+
+body {
+  text-align: center;
+  background-color: #ff7b00;
+  color: #ad3d00;
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
+
+nav {
+  padding: 10px;
+  width: 1490px;
+  background-color: #ffff05;
+  overflow: auto;
+}
+
+nav a {
+  text-decoration: solid;
+  color: #ff7b00;
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  background-color: #ffff05;
+  width: 30%;
+}
+
+p {
+  padding: 10px;
+  background-color: #ffff05;
+}
+
+ul,
+li {
+  padding: 10px;
+  background-color: #ffff05;
+  list-style-position: inside;
+}
+
+table,
+tr,
+td {
+  margin: 2px auto;
+  background-color: #ffff05;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  padding: 30px;
+  background-color: #ffff05;
+}
+
+#logo {
+  float: left;
+  margin-left: 450px;
+  padding: 10px;
+  border: 10px;
+  width: 10%;
+}
+
+#websiteheader {
+  font-family: "Playfair Display", serif;
+  float: right;
+  width: 20%;
+  margin-right: 450px;
+  padding: 10px;
+  border: 10px;
+  background-color: #ffca76;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}

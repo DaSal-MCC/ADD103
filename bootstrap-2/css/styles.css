@@ -1,0 +1,49 @@
+body {
+  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-sm-6 {
+  text-align: center;
+  font-size: x-large;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+a {
+  text-decoration: solid;
+  color: aliceblue;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+h1 {
+  color: cornflowerblue;
+
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 50%;
+  height: 100%;
+}
+
+.col-md-6 {
+  text-align: center;
+  color: rgb(25, 115, 115);
+  font-size: large;
+}
+
+.col-md-12 {
+  text-align: center;
+  color: rgb(25, 115, 115);
+  font-size: large;
+}

@@ -3,21 +3,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.col-sm-6 {
-  text-align: center;
-  font-size: x-large;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: blue;
-}
-
-a {
+.nav a {
   text-decoration: solid;
   color: aliceblue;
+  padding: 20px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 10px;
+  font-size: large;
 }
 
-a:hover {
-  color: skyblue;
+.nav .disabled {
+  color: rgb(154, 192, 225);
+}
+
+.nav a:hover {
+  color: rgb(0, 136, 255);
+  background-color: rgb(190, 239, 255);
 }
 
 h1 {
@@ -47,3 +49,5 @@ img {
   color: rgb(25, 115, 115);
   font-size: large;
 }
+
+
